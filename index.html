@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Best Rent A Car Karachi</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 body {
@@ -13,15 +13,15 @@ body {
 
 /* HEADER */
 header {
-  background: linear-gradient(to right, #000, #ff7b00);
+  background: linear-gradient(to right, black, orange);
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 40px 20px;
 }
 
 header img {
   width: 120px;
-  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 h1 {
@@ -29,38 +29,37 @@ h1 {
 }
 
 /* SECTION */
-section {
+.container {
   padding: 20px;
 }
 
-/* CAR CARDS */
 .car {
   background: white;
   padding: 15px;
   margin: 10px 0;
   border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  font-weight: bold;
-}
-
-/* CONTACT */
-.contact {
-  background: #000;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 /* BUTTON */
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #ff7b00;
+  display: block;
+  text-align: center;
+  background: green;
   color: white;
-  border-radius: 8px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
   text-decoration: none;
-  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
 }
 </style>
 </head>
@@ -68,12 +67,12 @@ section {
 <body>
 
 <header>
-  <img src="logo.png">
+  <img src="Screenshot_20260426-081746_1.jpg">
   <h1>Best Rent A Car Karachi</h1>
-  <p>Contact: 03097889356</p>
+  <p>📞 03097889356</p>
 </header>
 
-<section>
+<div class="container">
   <h2>Available Cars</h2>
 
   <div class="car">Toyota Grande</div>
@@ -83,20 +82,15 @@ section {
   <div class="car">Fortuner</div>
   <div class="car">LC300</div>
   <div class="car">Corolla Cross</div>
-
-</section>
-
-<section>
-  <h2>Our Location</h2>
-  <p>Shahrah-e-Faisal, Falaknaz Plaza, Opposite Airport Police Station, Karachi</p>
-
-  <a class="btn" href="https://maps.google.com" target="_blank">Open in Google Maps</a>
-</section>
-
-<div class="contact">
-  <h3>Call Now</h3>
-  <p>03097889356</p>
 </div>
+
+<a class="btn" href="https://wa.me/923097889356">
+  📲 Book Now on WhatsApp
+</a>
+
+<footer>
+  <p>📍 Shahrah e Faisal, Karachi</p>
+</footer>
 
 </body>
 </html>
