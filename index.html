@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Best Rent A Car Karachi</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body {
@@ -16,29 +16,36 @@ header {
   background: linear-gradient(to right, black, orange);
   color: white;
   text-align: center;
-  padding: 40px 20px;
+  padding: 30px;
 }
 
 header img {
   width: 120px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-h1 {
-  margin: 10px 0;
-}
-
-/* SECTION */
+/* CONTAINER */
 .container {
   padding: 20px;
 }
 
+/* CAR CARD */
 .car {
   background: white;
+  margin: 15px 0;
   padding: 15px;
-  margin: 10px 0;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.car img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
 }
 
 /* BUTTON */
@@ -48,53 +55,103 @@ h1 {
   background: green;
   color: white;
   padding: 15px;
-  margin: 20px;
   border-radius: 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: black;
-  color: white;
+/* FORM */
+form {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
 }
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-  <img src="Screenshot_20260426-081746_1.jpg">
-  <h1>Best Rent A Car Karachi</h1>
-  <p>📞 03097889356</p>
+<img src="Screenshot_20260426-081746_1.jpg">
+<h1>Best Rent A Car Karachi</h1>
+<p>📞 03097889356</p>
 </header>
 
 <div class="container">
-  <h2>Available Cars</h2>
 
-  <div class="car">Toyota Grande</div>
-  <div class="car">Honda City</div>
-  <div class="car">Toyota Yaris</div>
-  <div class="car">Vigo</div>
-  <div class="car">Fortuner</div>
-  <div class="car">LC300</div>
-  <div class="car">Corolla Cross</div>
+<h2>🚗 Available Cars</h2>
+
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?toyota-corolla">
+<h3>Toyota Grande</h3>
+<p class="price">Rs 8000 / day</p>
 </div>
-<a href="https://wa.me/923097889356" target="_blank" 
-style="display:block; text-align:center; background:#25D366; color:white; padding:15px; border-radius:10px; margin:20px; text-decoration:none; font-size:18px; font-weight:bold;">
-📲 Book Now on WhatsApp
-</a>
-<p style="text-align:center; font-size:18px;">
-📍 Shahrah e Faisal, Karachi
-</p>
 
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?honda-city">
+<h3>Honda City</h3>
+<p class="price">Rs 6000 / day</p>
+</div>
 
-  
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?toyota-yaris">
+<h3>Toyota Yaris</h3>
+<p class="price">Rs 5500 / day</p>
+</div>
 
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?toyota-vigo">
+<h3>Vigo</h3>
+<p class="price">Rs 12000 / day</p>
+</div>
 
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?toyota-fortuner">
+<h3>Fortuner</h3>
+<p class="price">Rs 15000 / day</p>
+</div>
+
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?land-cruiser">
+<h3>LC300</h3>
+<p class="price">Rs 25000 / day</p>
+</div>
+
+<div class="car">
+<img src="https://source.unsplash.com/400x200/?corolla-cross">
+<h3>Corolla Cross</h3>
+<p class="price">Rs 9000 / day</p>
+</div>
+
+<a class="btn" href="https://wa.me/923097889356">📲 Book Now on WhatsApp</a>
+
+<h2>📩 Booking Form</h2>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="tel" placeholder="Phone Number">
+<input type="text" placeholder="Car Name">
+<textarea placeholder="Message"></textarea>
+<button class="btn">Submit</button>
+</form>
+
+<h2>📍 Our Location</h2>
+
+<iframe 
+src="https://maps.google.com/maps?q=Shahrah%20e%20Faisal%20Karachi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%" height="250" style="border:0;">
+</iframe>
+
+</div>
 
 </body>
 </html>
