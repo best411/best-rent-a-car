@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <title>Best Rent A Car Karachi</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body {
@@ -12,11 +11,12 @@ body {
   background: #f4f4f4;
 }
 
+/* HEADER */
 header {
-  background: linear-gradient(to right, #ff7b00, #000);
+  background: linear-gradient(to right, #000, #ff7b00);
   color: white;
-  padding: 25px;
   text-align: center;
+  padding: 30px;
 }
 
 header img {
@@ -24,44 +24,79 @@ header img {
   margin-bottom: 10px;
 }
 
+h1 {
+  margin: 10px 0;
+}
+
+/* SECTION */
 section {
   padding: 20px;
 }
 
-.card {
+/* CAR CARDS */
+.car {
   background: white;
   padding: 15px;
   margin: 10px 0;
   border-radius: 12px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   font-weight: bold;
 }
-</style>
 
+/* CONTACT */
+.contact {
+  background: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff7b00;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <img src="logo.png" alt="logo">
-
+  <img src="logo.png">
   <h1>Best Rent A Car Karachi</h1>
-  <p>📞 03097889356</p>
-  <p>📍 Shahrah e Faisal, Falaknaz Plaza, Opposite Airport Police Station, Karachi</p>
+  <p>Contact: 03097889356</p>
 </header>
-<h3>Location: Shahrah-e-Faisal, Karachi</h3>
+
 <section>
   <h2>Available Cars</h2>
 
-  <div class="card">Toyota Grande</div>
-  <div class="card">Honda City</div>
-  <div class="card">Toyota Yaris</div>
-  <div class="card">Vigo</div>
-  <div class="card">Fortuner</div>
-  <div class="card">LC300</div>
-  <div class="card">Corolla Cross</div>
+  <div class="car">Toyota Grande</div>
+  <div class="car">Honda City</div>
+  <div class="car">Toyota Yaris</div>
+  <div class="car">Vigo</div>
+  <div class="car">Fortuner</div>
+  <div class="car">LC300</div>
+  <div class="car">Corolla Cross</div>
 
 </section>
+
+<section>
+  <h2>Our Location</h2>
+  <p>Shahrah-e-Faisal, Falaknaz Plaza, Opposite Airport Police Station, Karachi</p>
+
+  <a class="btn" href="https://maps.google.com" target="_blank">Open in Google Maps</a>
+</section>
+
+<div class="contact">
+  <h3>Call Now</h3>
+  <p>03097889356</p>
+</div>
 
 </body>
 </html>
